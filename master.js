@@ -5,7 +5,7 @@ let day = date.getDate();
 let month = date.getMonth() + 1;
 let year = date.getFullYear();
 // full date
-let fdate = `${day}-${month}-${year}`;
+let fdate = `${day + 1}-${month}-${year}`;
 // month name
 const monthNames = [
   "يناير",
